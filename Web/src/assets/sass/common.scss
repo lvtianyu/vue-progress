@@ -1,0 +1,56 @@
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none
+}
+
+.clear:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+
+.clear {
+    zoom: 1
+}
+
+html{
+    width: 100%;
+}
+
+body {
+    background-color: #FFF;
+    font-family: Microsoft Yahei;
+    width:100%;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+input {outline:none;}

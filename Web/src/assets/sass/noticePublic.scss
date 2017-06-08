@@ -1,0 +1,76 @@
+#modal-public{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(153,153,153,0.3);
+  text-align: center;
+  margin:0
+}
+
+/*提示信息层*/
+.notice{
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  height: .6rem;
+  line-height: .6rem;
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+  -webkit-animation:waitFn .6s  linear;
+  animation:waitFn .6s  linear;
+  color: #31e2cb;
+}
+
+@-moz-keyframes waitFn{
+  0%{
+    height: 0;
+  }
+  25%{
+    height: .1rem;
+  }
+  50%{
+    height: .2rem;
+  }
+  75%{
+    height: .4rem;
+  }
+  100%{
+    height: .6rem;
+  }
+}
+@-webkit-keyframes waitFn{
+  0%{
+    height: 0;
+  }
+  25%{
+    height: .1rem;
+  }
+  50%{
+    height: .2rem;
+  }
+  75%{
+    height: .4rem;
+  }
+  100%{
+    height: .6rem;
+  }
+}
+@keyframes waitFn{
+  0%{
+    height: 0;
+  }
+  25%{
+    height: .1rem;
+  }
+  50%{
+    height: .2rem;
+  }
+  75%{
+    height: .4rem;
+  }
+  100%{
+    height: .6rem;
+  }
+}

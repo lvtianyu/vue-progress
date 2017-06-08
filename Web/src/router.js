@@ -1,0 +1,51 @@
+/**
+ * Created by lvtianyu on 16/8/29.
+ */
+export default function(router){
+  router.map({
+    '/':{
+      name:'index',
+      component:require('./views/index.vue')
+    },
+    '/calenda':{
+      name:'calenda',
+      component:require('./views/calenda')
+    },
+    '/myComeOnGame':{
+      name:'myComeOnGame',
+      component:require('./views/myComeOnGame')
+    },
+    '/myCreateGame':{
+      name:'myCreateGame',
+      component:require('./views/myCreateGame')
+    },
+    '/myMoney':{
+      name:'myMoney',
+      component:require('./views/myMoney')
+    },
+    '/myMood':{
+      name:'myMood',
+      component:require('./views/myMood')
+    },
+    '/MyInfo':{
+      name:'MyInfo',
+      component:require('./views/MyInfo')
+    },
+    '/Userinfo':{
+      name:'Userinfo',
+      component:require('./views/Userinfo')
+    },
+    '/addmore':{
+      name:'addmore',
+      component:require('./views/addmore')
+    },
+    '/mygift':{
+      name:'mygift',
+      component:require('./views/mygift')
+    },
+    '/addAddress':{
+      name:'addAddress',
+      component:require('./views/AddAddress')
+    }
+  })
+};
